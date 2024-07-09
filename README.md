@@ -90,3 +90,14 @@ By leveraging these AWS-specific security tools and services, along with Splunk 
 
 
 ## Part 2 Container Security Implementation
+Task 1: Docker Security Best Practices
+	Docker Security Best Practices:
+1. Use Official Images: Always use official and verified Docker images from trusted sources to reduce the risk of using images with known vulnerabilities.
+
+2. Run Containers as Non-Root User: Avoid running containers as the root user to limit the damage that can be done if a container is compromised.
+
+3. Minimize Container Image Size: Use minimal base images and only include necessary components. This reduces the attack surface and potential vulnerabilities.
+
+4. Enable Docker Content Trust (DCT): Ensure the integrity and publisher of Docker images by enabling Docker Content Trust, which uses digital signatures.
+
+5. Regularly Update and Scan Images: Frequently update your images and scan them for vulnerabilities using tools like Docker Bench for Security or third-party scanners.
