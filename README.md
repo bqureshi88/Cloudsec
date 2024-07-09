@@ -101,3 +101,5 @@ Task 1: Docker Security Best Practices
 4. Enable Docker Content Trust (DCT): Ensure the integrity and publisher of Docker images by enabling Docker Content Trust, which uses digital signatures.
 
 5. Regularly Update and Scan Images: Frequently update your images and scan them for vulnerabilities using tools like Docker Bench for Security or third-party scanners.
+
+((Example Dockerfile that implements running the container as a Non-Root user is available in the repo))
