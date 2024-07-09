@@ -1,6 +1,7 @@
 # Use official Node.js base image
 FROM node:14-alpine
 
+
 # Create and switch to a non-root user
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 USER appuser
