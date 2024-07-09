@@ -130,3 +130,8 @@ Security Implications of IaaS:
 4. Network Security: Implementing network security measures such as firewalls, Virtual Private Networks (VPNs), and network segmentation to protect against unauthorized access and attacks.
 
 5. Compliance and Auditing: Regularly auditing the IaaS environment to ensure compliance with industry standards and regulations, and using logging and monitoring tools to detect and respond to security incidents promptly.
+
+## Part 3 CI/CD Pipeline setup
+Task 1: Ansible_Playbook: The provided Ansible playbook installs and starts an Apache web server on the target VM, ensuring it runs at boot and deploys a simple HTML file.
+
+Task 2: Jenkins Pipeline (Jenkinsfile): This Jenkins pipeline includes stages for checking out the code, building the application using Maven, running tests, performing a security scan, and deploying the application to Azure Web App using the Azure CLI.
