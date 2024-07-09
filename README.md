@@ -87,3 +87,6 @@ Task 3: Network Security Measures
    - Use Wiz.io to gain visibility into cloud security posture and automate security checks.
 
 By leveraging these AWS-specific security tools and services, along with Splunk and Wiz.io, the organization can enhance its defense posture, effectively respond to incidents, and mitigate the risk of future security breaches.
+
+
+## Part 2 Container Security Implementation
