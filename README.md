@@ -2,7 +2,8 @@
 Teksystems Assessment  
 ## Part 1 Cybersecurity Scenario
 Task 1: Threat Intelligence Report
-	Types of Attacks
+	Types of Attacks:
+ 
 1. SQL Injection: Attackers exploit vulnerabilities in SQL queries to manipulate the database.
 2. Remote Code Execution (RCE): Exploiting vulnerabilities to run arbitrary code on servers. 
 3. Cross-Site Request Forgery (CSRF): Attackers trick users into executing unwanted actions.
@@ -10,6 +11,7 @@ Task 1: Threat Intelligence Report
 5. File Inclusion (LFI/RFI): Attackers include files to execute malicious code.
 
 	How a Vulnerability Exploited Can Provide Access to the Network:
+
 In an AWS environment, exploiting a vulnerability can give attackers access to EC2 instances or containers running the web application. This access can be used to explore the internal network, steal data, or escalate privileges to other AWS resources like RDS databases, S3 buckets, or IAM roles. For example, an RCE vulnerability could be used to gain shell access to an EC2 instance, allowing the attacker to install malware, capture credentials, and move laterally within the AWS environment.
 
 	 Preventive Measures:
