@@ -5,10 +5,11 @@ Task 1: Threat Intelligence Report
 	Types of Attacks:
  
 1. SQL Injection: Attackers exploit vulnerabilities in SQL queries to manipulate the database.
-2. Remote Code Execution (RCE): Exploiting vulnerabilities to run arbitrary code on servers. 
-3. Cross-Site Request Forgery (CSRF): Attackers trick users into executing unwanted actions.
-4. Cross-Site Scripting (XSS): Malicious scripts are injected into web pages to steal user information.
-5. File Inclusion (LFI/RFI): Attackers include files to execute malicious code.
+   Manipulate a sql query by injecting input. login attempt with manipulated credentials.
+3. Remote Code Execution (RCE): Exploiting vulnerabilities to run arbitrary code on servers. 
+4. Cross-Site Request Forgery (CSRF): Attackers trick users into executing unwanted actions.
+5. Cross-Site Scripting (XSS): Malicious scripts are injected into web pages to steal user information.
+6. File Inclusion (LFI/RFI): Attackers include files to execute malicious code.
 
 	How a Vulnerability Exploited Can Provide Access to the Network:
 
